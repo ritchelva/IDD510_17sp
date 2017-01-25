@@ -6,4 +6,4 @@ This repository contains all lessons and assignments for the course _Essentials 
 
 ## Table of Contents
 
-* Lesson 01 - Basic HTML/CSS
+* [Lesson 01 - Basic HTML/CSS](Lesson-01/lesson-01.mdown)
