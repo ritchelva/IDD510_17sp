@@ -11,10 +11,10 @@ In this course you will learn basic HTML/CSS.
 
 [Khan Academy - CSS/HTML](https://www.khanacademy.org/)
 
-http://stackoverflow.com/
+[Stack Overflow - Online Community for Programmers](http://stackoverflow.com/)
 
-http://styleguides.io/
+[Website Style Guide Resources - Resources for Creating Front-End Style Guides and Pattern Libraries](http://styleguides.io/)
 
-http://ux.mailchimp.com/patterns/typography
+[MailChimp - Email Marketing Platform](http://ux.mailchimp.com/patterns/typography)
 
-http://www.w3schools.com/html/html_elements.asp
+[W3 Schools - Web Developer Site](http://www.w3schools.com/html/html_elements.asp)
