@@ -29,7 +29,7 @@ These are a few CSS attributes to get you started. You can complete the assignme
 
 
 
-### Project: [Drawing with CSS](IDD510_17sp/Lessons/03-css-positioning/painting.html)
+### Project: [Drawing with CSS](painting.html)
 
 ### Resources
 
