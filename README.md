@@ -17,5 +17,5 @@ This repository contains all lessons and assignments for the course _Essentials 
 
 **Projects** 
 
-* [Project 01 - Drawing with CSS](painting.html)
+* [Project 01 - Drawing with CSS](Lessons/03-css-positioning/painting.html)
 * [Project 02 - Responsive Landing Page](projects/02-responsive-landing-page/project-02.md)
