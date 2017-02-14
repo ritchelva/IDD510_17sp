@@ -13,7 +13,7 @@ In this lesson you will learn how to design and code the box model. You will the
 * Intro to CSS Media Queries
 
 
-### Project: [Responsive Landing Page](Lessons/04-box-model-responsive-web-design/landingpage.html)
+### Project: [Responsive Landing Page](IDD510_17sp/Lessons/04-box-model-responsive-web-design/landingpage.html)
 
 
 ### Resources
