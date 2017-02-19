@@ -1,0 +1,220 @@
+<html>
+<head>
+
+  <style>
+
+    body {
+      font-family: Trebuchet MS; Helvetica; sans-serif;
+      font-size: 24px;
+    } 
+
+    h1 {
+      margin: 40px;
+    }
+
+    h2 {
+      margin: 40px;
+
+    }
+
+    h3 {
+      margin: 4px;
+      padding-bottom: 15px;
+      text-transform: uppercase; 
+    }
+
+    input[type] {
+      height: 8%;
+      margin-bottom: 3%;
+      border-radius: 3px;
+      border: 3px solid #000000;
+      padding: 2% 2%;
+      font-size: 14px;
+      width: 99%
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 3px solid #000000;
+      font-size: 14px;
+      resize: none;
+      width: 99%;
+    }
+
+     input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 35%;
+
+    }
+
+    label {
+      position: relative;
+      top: -5px;
+    }
+
+    input[type="submit"] {
+      height: 48px;
+      font-size: 17px;
+      border-radius: 25px;
+      border: none;
+      background: #4A4A4A;
+      color: #FFFFFF;
+      width: 100px;
+
+    }
+
+    .contact {
+      background: #D8D8D8;
+      font-size: 17px;
+      position: relative;
+      border-radius: 15px;
+      width: 74%;
+      left: 7%;
+      padding: 7%;
+
+}
+    .description {
+      background: #D8D8D8;
+      font-size: 17px;
+      position: relative;
+      border-radius: 15px;
+      width: 74%;
+      left: 7%;
+      padding: 7%;
+
+    }
+
+
+    /* Media Queries 
+    -------------------------- */
+    /* Mobile Phone */ 
+
+
+    @media only screen and (min-width : 320px) {}
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+
+    input[type] {
+      width: 45%;
+      transition: ease-in 0.4s;
+    }
+
+    textarea {
+      width: 560px;
+    }
+
+    label {
+      position: relative;
+      top: -5px;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      margin-left: 450px;
+
+    }
+
+    .contact {
+    width: 83%;
+    left: 7%;
+    padding: 2%;
+
+}
+    .description {
+      width: 83%;
+      left: 7%;
+      padding: 2%;
+
+    }
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {}
+
+
+
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <h1>How Can We Help You?</h1>
+
+
+  <form>
+
+<h2>Complaint Form</h2>
+
+<div class="contact">
+
+ <h3>Contact Info</h3>
+    <input type="text" name="fullname" placeholder="Name">
+  
+    <input type="email" name="email" placeholder="Email"><br>
+
+    <input type="text" name="lastname" placeholder="Phone"><br>
+
+</div>
+
+    <br>
+
+</form>
+
+<form>
+
+<div class="description">
+  
+
+    <h3>Description of Issue</h3>
+
+    Subject<br>
+
+    <select>
+      <option name="color" value="dropdown">Mailing</option>
+      <option name="color" value="red">Billing</option>
+      <option name="color" value="purple">Account</option>
+      <option name="color" value="pink">Pink</option>
+      <option name="color" value="blue">Blue</option>
+    </select>
+
+    <br><br>
+
+    <label for="birthday">Dates of Occurance</label><br>
+    <input type="date" name="bday">
+
+
+    <br><br>
+
+    Comments<br>
+
+    <textarea rows="6">
+
+    </textarea>
+
+    <br><br>
+
+    <label for="file">Attachments <U>.doc, .pdf, .jpeg</U></label><br>
+    <input type="file" name="doc" id="photo">
+
+
+    <br>
+
+    <input class="button" type="submit" value="Submit">
+  
+
+  </form>
+
+
+</div>
+
+</body>
+</html>
