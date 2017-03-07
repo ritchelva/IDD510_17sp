@@ -1,0 +1,343 @@
+<html>
+<head>
+
+  <style>
+
+    body {
+      font-family: Tahoma; Helvetica; sans-serif;
+      margin: 20px;
+      padding: 10px;
+      
+    } 
+
+    h1 {
+ 		font-size: 32px;
+    }
+
+    h2 {
+ 		font-size: 28px;
+    }
+
+    h3 {
+ 		font-size: 24px;
+    }
+
+    input[type] {
+      height: 6%;
+      margin-bottom: 2%;
+      border-radius: 3px;
+      border: 2px solid #777777;
+      padding: 2% 2%;
+      font-size: 16px;
+      width: 49%;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 2px solid #777777;
+      font-size: 14px;
+      resize: none;
+      width: 99%;
+    }
+
+    input[type="submit"] {
+      height: 48px;
+      font-size: 17px;
+      border-radius: 25px;
+      border: none;
+      background: #000000;
+      color: #FFFFFF;
+      width: 100px;
+      padding: 0px;
+
+    }
+
+    input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+   .contact-main {
+	width: 79px;
+    height: 45px;
+    background-color: #A3CED1;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 21px;
+
+   }
+
+   .title {
+   	font-size: 32px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+   
+   }
+
+    .sub-title {
+   	font-size: 24px;
+	background-color: cadetblue;
+	color: white;
+	padding: 10px;
+	width: 20%;
+    border-radius: 5px;
+   
+   }
+
+   .form-1 {
+      background: #a3ced1;
+      font-size: 17px;
+      border-radius: 15px;
+      width: 74%;
+      padding: 2%;
+      margin: 0 auto;
+	}
+    
+
+  </style>
+
+</head>
+
+
+<body>
+
+<div class="title">Atoms</div>
+
+<h1>Colors</h1>
+
+<div class="contact-main">#A3CED1</div>
+
+<br><br>
+
+<div class="sub-title">Typography</div>
+
+<h1>Headline 1 Tahoma Bold 32 Point</h1>
+<h2>Headline 2 Tahoma Bold 28 Point</h2>
+<h3>Headline 3 Tahoma Bold 24 Point</h3>
+
+  Body Text Tahoma Regular 18 point
+  <br><br>
+
+
+<div class="sub-title">Buttons</div>
+
+<br><br>
+
+<div class="contact">
+
+	Text Input <br>
+    <input type="text" name="fullname" placeholder="Name">
+
+</div>
+
+    <br>
+
+</form>
+
+<form>
+
+<div class="description">
+  
+
+    Dropdown<br>
+
+    <select>
+      <option name="service" value="dropdown">Dropdown 1</option>
+      <option name="billing" value="red">Dropdown 2</option>
+      <option name="account" value="purple">Dropdown 3</option>
+      <option name="deposit" value="pink">Dropdown 4</option>
+      <option name="other" value="blue">Dropdown 5</option>
+      <option name="topic" value="dropdown" disabled="disabled">Disabled</option>
+    </select>
+
+    <br><br>
+
+    <label for="birthday">Calendar</label><br>
+    <input type="date" name="bday">
+
+
+    <br><br>
+
+    Text Area<br>
+
+    <textarea rows="6">
+
+    </textarea>
+
+    <br><br>
+
+    <label for="file">Attachments</label><br>
+    <input type="file" name="doc" id="photo">
+
+
+    <br>
+
+    <input class="button" type="submit" value="BUTTON">
+  
+
+  </form>
+
+</div>
+
+
+
+<div class="title">Molecules</div>
+
+<br><br>
+
+<div class="sub-title">Contact Info</div>
+
+<br><br>
+
+<div class="form-1">
+
+ <h3>Contact Info</h3>
+
+
+    <input type="text" name="fullname" placeholder="Name">
+
+
+    <input type="email" name="email" placeholder="Email">
+
+
+    <input type="text" name="lastname" placeholder="Phone">
+
+</div>
+
+<br><br>
+
+<div class="sub-title">Description of Issue</div>
+
+<br><br>
+
+<div class="form-1">
+  
+
+    <h3>Description of Issue</h3>
+
+    Subject<br>
+
+    <select>
+      <option name="topic" value="dropdown" disabled="disabled">Select a Topic</option>
+      <option name="service" value="dropdown">Service Issue</option>
+      <option name="billing" value="red">Billing</option>
+      <option name="account" value="purple">Account</option>
+      <option name="deposit" value="pink">Deposits</option>
+      <option name="other" value="blue">Other</option>
+    </select>
+
+    <br><br>
+
+    <label for="birthday">Dates of Occurance</label><br>
+    <input type="date" name="bday">
+
+
+    <br><br>
+
+    Comments<br>
+
+    <textarea rows="6">
+
+    </textarea>
+
+    <br><br>
+    
+    <h3>Supporting Documents</h3>
+
+    <label for="file">Attachments <U>.doc, .pdf, .jpeg</U></label><br>
+    <input type="file" name="doc" id="photo">
+
+
+    <br>
+
+    <input class="button" type="submit" value="SUBMIT">
+  
+
+  </form>
+
+</div>
+
+<br><br>
+
+<div class="title">Organisms</div>
+
+<br><br>
+
+<div class="sub-title">Complaint Form</div>
+
+<br><br>
+
+<div class="form-1">
+
+ <h3>Contact Info</h3>
+
+
+    <input type="text" name="fullname" placeholder="Name">
+
+
+    <input type="email" name="email" placeholder="Email">
+
+
+    <input type="text" name="lastname" placeholder="Phone">
+
+</div>
+
+<br><br>
+
+<div class="form-1">
+  
+
+    <h3>Description of Issue</h3>
+
+    Subject<br>
+
+    <select>
+      <option name="topic" value="dropdown" disabled="disabled">Select a Topic</option>
+      <option name="service" value="dropdown">Service Issue</option>
+      <option name="billing" value="red">Billing</option>
+      <option name="account" value="purple">Account</option>
+      <option name="deposit" value="pink">Deposits</option>
+      <option name="other" value="blue">Other</option>
+    </select>
+
+    <br><br>
+
+    <label for="birthday">Dates of Occurance</label><br>
+    <input type="date" name="bday">
+
+
+    <br><br>
+
+    Comments<br>
+
+    <textarea rows="6">
+
+    </textarea>
+
+    <br><br>
+    
+    <h3>Supporting Documents</h3>
+
+    <label for="file">Attachments <U>.doc, .pdf, .jpeg</U></label><br>
+    <input type="file" name="doc" id="photo">
+
+
+    <br>
+
+    <input class="button" type="submit" value="SUBMIT">
+  
+
+  </form>
+
+<br><br>
+
+</div>
+
+
+</body>
+</html>

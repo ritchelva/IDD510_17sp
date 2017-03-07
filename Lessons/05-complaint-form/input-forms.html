@@ -1,0 +1,284 @@
+<html>
+<head>
+
+  <style>
+
+    body {
+      font-family: Verdana; Helvetica; sans-serif;
+      font-size: 18px;
+      
+    } 
+
+    div {
+      margin: 20px;
+    }
+
+    h2 {
+      margin: 40px;
+
+    }
+
+    h3 {
+      margin: 4px;
+      padding-bottom: 15px;
+      text-transform: uppercase; 
+    }
+
+    input[type] {
+      height: 6%;
+      margin-bottom: 2%;
+      border-radius: 3px;
+      border: 2px solid #777777;
+      padding: 2% 2%;
+      font-size: 16px;
+      width: 98%;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 2px solid #777777;
+      font-size: 14px;
+      resize: none;
+      width: 99%;
+    }
+
+     input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+    label {
+      position: relative;
+      top: -5px;
+    }
+
+    input[type="submit"] {
+      height: 48px;
+      font-size: 17px;
+      border-radius: 25px;
+      border: none;
+      background: #000000;
+      color: #FFFFFF;
+      width: 100px;
+
+    }
+
+    .contact {
+      background: #a3ced1;
+      font-size: 17px;
+      border-radius: 15px;
+      width: 74%;
+      padding: 2%;
+      margin: 0 auto;
+
+}
+    .description {
+      background: #a3ced1;
+      font-size: 17px;
+      border-radius: 15px;
+      width: 74%;
+      padding: 2%;
+      margin: 0 auto;
+
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+
+    }
+
+
+    /* Media Queries 
+    -------------------------- */
+    /* Mobile Phone */ 
+
+
+    @media only screen and (min-width : 320px) {
+
+    h1 {
+      position: relative;
+      bottom: 128px;
+      right: -18px;
+      width: 318px;
+      color: #FFFFFF;
+      margin: 14px
+    
+    }
+
+    h2 {
+      margin: 10px;
+
+    }
+
+    div {
+      margin: 10px;
+    }
+
+  }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    h1 {
+      position: relative;
+      bottom: 200px;
+      right: -40px;
+      width: 500px;
+      color: #FFFFFF;
+    }
+
+    div {
+      margin: 40px;
+    }
+
+    input[type] {
+      width: 49%;
+      transition: ease-in 0.4s;
+    }
+
+    textarea {
+      width: 98%;
+    }
+
+    label {
+      position: relative;
+      top: -5px;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      margin-left: 85%;
+
+    }
+
+    .contact {
+		padding: 2%;
+
+    }
+
+    .description {
+      	padding: 2%;
+
+    }
+
+	}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {}
+
+
+
+
+  </style>
+
+</head>
+
+
+<body>
+
+<img src="http://www.themefocus.co/alterna/newdemo/wp-content/uploads/2014/04/Untitled-w4.png">
+
+<h1>How Can We Help You?</h1>
+
+  <h2>Dignissimos Ducimus</h2>
+
+  <div class="body">
+  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+  <br><br>
+
+  Et harum quidem rerum facilis est et expedita distinctio:
+
+  <ul>
+  <li>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</li>
+
+  <li>Impedit quo minus id quod maxime placeat facere possimus</li>
+
+  <li>Oluptas assumenda est, omnis dolor repellendus. </li>
+
+  <li>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus. </li>
+
+  </ul>
+
+
+</div>
+
+  <form>
+
+<h2>Complaint Form</h2>
+<br><br>
+
+<div class="contact">
+
+ <h3>Contact Info</h3>
+
+
+    <input type="text" name="fullname" placeholder="Name">
+
+
+    <input type="email" name="email" placeholder="Email">
+
+
+    <input type="text" name="lastname" placeholder="Phone">
+
+</div>
+
+    <br>
+
+</form>
+
+<form>
+
+<div class="description">
+  
+
+    <h3>Description of Issue</h3>
+
+    Subject<br>
+
+    <select>
+      <option name="topic" value="dropdown" disabled="disabled">Select a Topic</option>
+      <option name="service" value="dropdown">Service Issue</option>
+      <option name="billing" value="red">Billing</option>
+      <option name="account" value="purple">Account</option>
+      <option name="deposit" value="pink">Deposits</option>
+      <option name="other" value="blue">Other</option>
+    </select>
+
+    <br><br>
+
+    <label for="birthday">Dates of Occurance</label><br>
+    <input type="date" name="bday">
+
+
+    <br><br>
+
+    Comments<br>
+
+    <textarea rows="6">
+
+    </textarea>
+
+    <br><br>
+    
+    <h3>Supporting Documents</h3>
+
+    <label for="file">Attachments <U>.doc, .pdf, .jpeg</U></label><br>
+    <input type="file" name="doc" id="photo">
+
+
+    <br>
+
+    <input class="button" type="submit" value="SUBMIT">
+  
+
+  </form>
+
+</div>
+
+
+</body>
+</html>
