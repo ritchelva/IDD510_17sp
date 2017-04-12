@@ -1,6 +1,8 @@
 <html>
 <head>
 
+<title>The Toasted Bean</title>
+
   <style>
 
     body {
@@ -10,23 +12,66 @@
     } 
 
     h1 {
- 		font-size: 32px;
-    }
-
-    h2 {
- 		font-size: 28px;
-    }
-
-    h3 {
- 		font-size: 18px;
+ 		 font-size: 32px;
     }
 
     .header {
-      height: 100px;
       background-color: #F3E7CD;
       position: relative;
+      height: 200px;
 
+    }
 
+    .cart {
+      top: 49px;
+      right: 70px;
+      position: absolute;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+
+    }
+
+    .navi {
+      top: 162px;
+      right: 70px;
+      position: absolute;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #716558;
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 0px 20px 8px 20px;
+      margin: 5px
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #013548;
+      
+      }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .button {
+      color: black;
+
+    }
+
+    .logo {
+      top: 50px;
+      left: 50px;
+      position: absolute;
     }
 
   </style>
@@ -36,29 +81,36 @@
 
 <body>
 
-<div class="header">The Toasted Bean</div>
+<div class="header">
 
 <br>
 
-<a href="cart.jpg">Cart</a>
+
+<div class="logo">
+  <img src="toastedbean_logo.png" alt="tb-logo" style="width:30%;">
+</div>
 
 <br>
 
-<li><a href="HOME">HOME</a></li>
-<li><a href="ABOUT US">ABOUT US</a></li>
-<li><a href="SHOP">SHOP</a></li>
-<li><a href="GIVE BACK">GIVE BACK</a></li>
+<div class="cart">
 
-<br>
+  <img src="cart_icon.png" alt="cart" style="width:30px;">
 
-<img src="pic_mountain.jpg" alt="banner-image-1" style="width:full;height:228px;">
-
-
-
-
-
+  <a href="cart.jpg">Cart</a>
 
 </div>
+
+<br>
+
+<div class="navi">
+
+  <a href="HOME" class="button">HOME</a>
+  <a href="ABOUT US" class="button">ABOUT US</a>
+  <a href="SHOP" class="button">SHOP</a>
+  <a href="GIVE BACK" class="button">GIVE BACK</a>
+
+</div>
+
 
 
 
