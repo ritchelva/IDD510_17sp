@@ -1,0 +1,32 @@
+/*<head>
+
+    <link rel="stylesheet" type="text/css" href="/Users/ritchelarceta/Dropbox/PhilaU/IDD510_17sp/Projects/TheToastedBean/build/src/shop-style.css">
+    
+</head>*/
+
+  <style>
+
+    body {
+      font-family: Avenir; Helvetica; sans-serif;
+      font-size: 18px;
+
+       } 
+
+
+    /* Media Queries 
+    -------------------------- */
+    /* Mobile Phone */ 
+
+
+    @media only screen and (min-width : 320px) {
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    }
+    
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {}
+
+  </style>
