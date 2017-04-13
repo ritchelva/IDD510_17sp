@@ -1,34 +1,13 @@
-/*<head>
-
-    <link rel="stylesheet" type="text/css" href="/Users/ritchelarceta/Dropbox/PhilaU/IDD510_17sp/Projects/TheToastedBean/build/src/shop-style.css">
-
-</head>*/
+  <head>
 
   <style>
 
     body {
       font-family: Avenir; Helvetica; sans-serif;
-      margin: 20px;
-      padding: 10px;
-      font-size: 14px;
+      font-size: 18px;
+
       
     } 
-
-    h1 {
-    font-size: 32px;
-    }
-
-    h2 {
-    font-size: 28px;
-    }
-
-    h3 {
-    font-size: 18px;
-    }
-
-    .item-product {
-      padding-left: 10px;
-    }
 
 
     /* Media Queries 
@@ -48,3 +27,5 @@
     @media only screen and (min-width : 992px) {}
 
   </style>
+
+</head>
