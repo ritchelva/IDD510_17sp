@@ -5,6 +5,11 @@
       
     } 
 
+    @font-face {
+    font-family: Mayton;
+    src: url(Mayton.ttf);
+    }
+
     h1 {
      font-size: 32px;
     }
@@ -82,6 +87,16 @@
       background-color: #F3E7CD;
       position: relative;
       height: 200px;
+
+    }
+
+    .slogan {
+      top: 75px;
+      left: 230px;
+      position: absolute;
+      font-family: Mayton;
+      font-size: 30px;
+      letter-spacing: .05em;
 
     }
 
@@ -201,9 +216,8 @@
     }
 
     .coffee-group {
-      margin-left: 50px;
+      padding: 10px;
       top: 300px;
-
     }
 
     .item-product {
@@ -220,7 +234,12 @@
       position: relative;
       top: -40px;
       left: -260px;
-      display: inline-block;
+    }
+
+    #products {
+      width: 250px;
+      height: 250px;
+      margin:5px;
     }
 
 
