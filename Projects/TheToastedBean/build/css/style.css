@@ -1,26 +1,17 @@
-<html>
-<head>
-
-  <style>
-
     body {
       font-family: Avenir; Helvetica; sans-serif;
-      margin: 20px;
-      padding: 10px;
       font-size: 14px;
+      margin: 0px;
       
     } 
 
     h1 {
- 		font-size: 32px;
+     font-size: 32px;
     }
 
     h2 {
- 		font-size: 28px;
-    }
-
-    h3 {
- 		font-size: 18px;
+     font-size: 28px;
+     margin-left: 50px;
     }
 
     input[type] {
@@ -50,7 +41,6 @@
       background: #716558;
       color: white;
       padding: 0px;
-      opacity: 0.5;
       font-family: Avenir;
 
     }
@@ -62,14 +52,16 @@
       border-radius: 2px;
       border: none;
       background: #013548;
-      color: white;
       font-family: Avenir;
 
     }
 
     .button1:hover {
       background: #013548;
-      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+/*      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+      opacity: 0.80;
+      color: white;
+      cursor: pointer;
 
     }
 
@@ -86,73 +78,155 @@
 
     }
 
-   .color-1 {
-	 width: 79px;
-    height: 45px;
-    background-color: #013548;
-    color: white;
-    border-radius: 2px;
-    padding: 10px;
-    padding-top: 21px;
-    position: relative;
+    .header {
+      background-color: #F3E7CD;
+      position: relative;
+      height: 200px;
 
-   }
+    }
 
-    .color-2 {
-    width: 79px;
-    height: 45px;
-    background-color: #716558;
-    color: white;
-    border-radius: 2px;
-    padding: 10px;
-    padding-top: 21px;
-    position: absolute;
-    top: 181px;
-    left: 139px;
+    .cart {
+      top: 49px;
+      right: 70px;
+      position: absolute;
 
-   }
+    }
 
-    .color-3 {
-    width: 79px;
-    height: 45px;
-    background-color: #F3E7CD;
-    color: black;
-    border-radius: 2px;
-    padding: 10px;
-    padding-top: 21px;
-    position: absolute;
-    top: 181px;
-    left: 249px;
+    .cart i {
+      font-size: 30px;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+
+    }
+
+    .navi {
+      top: 160px;
+      right: 70px;
+      position: absolute;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #716558;
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 0px 20px 8px 20px;
+      margin: 5px
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #013548;
+      
+    }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .button {
+      color: black;
+
+    }
+
+    .logo {
+      top: 50px;
+      left: 50px;
+      position: absolute;
+    }
+
+    .footer {
+      background-color: #013548;
+      position: relative;
+      height: 300px;
+
+    }
+
+    .social-media {
+      top: 140px;
+      left: 300px;
+      position: absolute;
+      color: white;
+      font-family: Mayton;
+      font-size: 30px;
+      margin: 10px;
+
+    }
+    
+    .social-media i {
+      font-size: 30px;
+      transition: ease-in 0.4s;
+      color: #FFFFFF;
+      padding: .50em;
+    }
+
+    .social-media i:hover {
+      transform: scale(1.75);
+    }
+
+    .site-map {
+      top: 40px;
+      left: 300px;
+      position: absolute;
+      font-size: 14px;
+
+    }
+
+    .site-map a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .site-map a:hover {  
+      color: #716558;
+
+    }
+
+    .foot-note {
+      text-align: center;
+      color: white;
+      margin-top: 210px;
+    }
+
+    .banner-first {
+      width: 100%;
+      margin-top: 150px;
+    }
+
+    .coffee-group {
+      margin-left: 50px;
+      top: 300px;
+
+    }
+
+    .item-product {
+      width:70%;
+      margin:auto;
+    }
+
+    #link-coffee {
+      width: 360px;
+      margin:auto;
+    }
+
+    #click-image {
+      position: relative;
+      top: -40px;
+      left: -260px;
+      display: inline-block;
+    }
 
 
-   }
 
-   .title {
-   	font-size: 32px;
-  	background-color: black;
-  	color: white;
-  	padding: 10px;
-  	border-radius: 3px;
-   
-   }
 
-    .sub-title {
-   	font-size: 18px;
-  	background-color: #013548;
-  	color: white;
-  	padding: 10px;
-    border-radius: 3px;
-   
-   }
 
-   .form-1 {
-      background: #a3ced1;
-      font-size: 17px;
-      border-radius: 15px;
-      width: 74%;
-      padding: 2%;
-      margin: 0 auto;
-	}
 
       /* Media Queries 
     -------------------------- */
@@ -172,9 +246,3 @@
       
     }
     
-
-  </style>
-
-</head>
-
-</html>
