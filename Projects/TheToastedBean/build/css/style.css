@@ -6,8 +6,8 @@
     } 
 
     @font-face {
-    font-family: Mayton;
-    src: url(Mayton.ttf);
+      font-family: Mayton;
+      src: url(_assets/fonts/Mayton.ttf);
     }
 
     h1 {
@@ -17,6 +17,13 @@
     h2 {
      font-size: 28px;
      margin-left: 50px;
+    }    
+
+    h3 {
+     font-size: 18px;
+     margin-left: 50px;
+     font-weight: normal;
+
     }
 
     input[type] {
@@ -174,6 +181,27 @@
       margin: 10px;
 
     }
+
+/* ----- FIRST SOCIAL MEDIA -----*/
+
+    .social-media-main {
+      left: 50px;
+      position: relative;
+      font-size: 40px;
+
+    }
+
+    .social-media-main i {
+      font-size: 45px;
+      transition: ease-in 0.4s;
+      color: #000000;
+      padding: .50em;
+    }
+
+    .social-media-main i:hover {
+      transform: scale(1.75);
+
+    }
     
     .social-media i {
       font-size: 30px;
@@ -216,8 +244,10 @@
     }
 
     .coffee-group {
-      padding: 10px;
-      top: 300px;
+      position: relative;
+      width:800px;
+      margin:0 auto;
+      padding: 20px;
     }
 
     .item-product {
@@ -225,17 +255,23 @@
       margin:auto;
     }
 
-    #link-coffee {
-      width: 360px;
-      margin:auto;
+    td {
+      font-size: 16px;
+      text-decoration:bold;
+      text-align: center;
     }
 
-    #click-image {
-      position: relative;
-      top: -40px;
-      left: -260px;
+    #click-image1 {
+      position: absolute;
+      top: 150px;
+      left: 135px;
     }
 
+    #click-image2 {
+      position: absolute;
+      top: 150px;
+      left: 525px;
+    }
     #products {
       width: 250px;
       height: 250px;
