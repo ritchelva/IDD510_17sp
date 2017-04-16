@@ -1,6 +1,6 @@
     body {
       font-family: Avenir; Helvetica; sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       margin: 0px;
       
     } 
@@ -16,24 +16,26 @@
 
     h2 {
      font-size: 28px;
-     margin-left: 50px;
+     margin: 20px 0px 20px 50px;
+
     }    
 
     h3 {
-     font-size: 18px;
-     margin-left: 50px;
+     font-size: 16px;
+     margin: 0px 0px -10px 50px;
      font-weight: normal;
+     padding: 0px;
 
     }
 
     input[type] {
-      height: 6%;
-      margin-bottom: 2%;
+      height: 28px;
+      margin: 10px 0px 20px 50px;
       border-radius: 3px;
       border: 1px solid #777777;
-      padding: 2% 2%;
-      font-size: 16px;
-      width: 49%;
+      padding: 5px 5px 5px 5px;
+      font-size: 18px;
+      width: 500px;
     }
 
     textarea {
@@ -41,7 +43,8 @@
       border: 1px solid #777777;
       font-size: 14px;
       resize: none;
-      width: 99%;
+      width: 500px;
+      margin: -10px 0px 20px 50px;
     }
 
     input[type="submit"] {
@@ -61,16 +64,16 @@
       height: 44px;
       width: 100px;
       font-size: 17px;
-      border-radius: 2px;
+      border-radius: 3px;
       border: none;
       background: #013548;
       font-family: Avenir;
+      margin: 10px 0px 20px 50px;
 
     }
 
     .button1:hover {
       background: #013548;
-/*      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
       opacity: 0.80;
       color: white;
       cursor: pointer;
@@ -153,11 +156,6 @@
 
     }
 
-    .button {
-      color: black;
-
-    }
-
     .logo {
       top: 50px;
       left: 50px;
@@ -185,21 +183,21 @@
 /* ----- FIRST SOCIAL MEDIA -----*/
 
     .social-media-main {
-      left: 50px;
+      left: 40px;
       position: relative;
       font-size: 40px;
 
     }
 
     .social-media-main i {
-      font-size: 45px;
+      font-size: 43px;
       transition: ease-in 0.4s;
       color: #000000;
       padding: .50em;
     }
 
     .social-media-main i:hover {
-      transform: scale(1.75);
+      transform: scale(1.50);
 
     }
     
@@ -218,7 +216,7 @@
       top: 40px;
       left: 300px;
       position: absolute;
-      font-size: 14px;
+      font-size: 16px;
 
     }
 
@@ -250,35 +248,70 @@
       padding: 20px;
     }
 
+    .coffee-group2 {
+      position: relative;
+      width: 1150px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
     .item-product {
       width:70%;
       margin:auto;
     }
 
-    td {
-      font-size: 16px;
-      text-decoration:bold;
-      text-align: center;
+    #light-roast {
+      position: absolute;
+      top: 140px;
+      left: 85px;
     }
 
-    #click-image1 {
+    #dark-roast{
       position: absolute;
-      top: 150px;
-      left: 135px;
+      top: 140px;
+      left: 480px;
     }
 
-    #click-image2 {
-      position: absolute;
-      top: 150px;
-      left: 525px;
-    }
     #products {
       width: 250px;
       height: 250px;
       margin:5px;
     }
 
+    #location {
+      margin: 10px 0px 20px 50px;
+      width:550px;
+      height:350px;
+      cursor: pointer;
+    }
 
+    .connect {
+      position: relative;
+      margin: 50px 10px 10px 20%;
+    }
+
+    #our-story {
+      position: absolute;
+      top: 140px;
+      left: 90px;
+    }
+
+    #donate {
+      position: absolute;
+      top: 140px;
+      left: 470px;
+    }
+
+    #merch {
+      position: absolute;
+      top: 140px;
+      left: 860px;
+    }
+
+    .shop {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
 
 
 
