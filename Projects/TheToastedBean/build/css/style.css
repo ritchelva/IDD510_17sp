@@ -28,6 +28,25 @@
 
     }
 
+    h4 {
+
+     font-size: 20px;
+     margin: 30px 0px 10px 50px;
+     padding: 0px;
+
+    }
+
+    a {
+      color: #013548;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #716558;
+      text-decoration: none;
+
+    }
+
     input[type] {
       height: 28px;
       margin: 10px 0px 20px 50px;
@@ -53,7 +72,7 @@
       font-size: 17px;
       border-radius: 2px;
       border: none;
-      background: #716558;
+      background: #013548;
       color: white;
       padding: 0px;
       font-family: Avenir;
@@ -77,12 +96,14 @@
       opacity: 0.80;
       color: white;
       cursor: pointer;
+      transition: .5s ease;
 
     }
 
     .button2:hover {
-      background: #A3CED1;
-
+      background: #716558;
+      cursor: pointer;
+      transition: .5s ease;
     }
 
     input[type="file"] {  
@@ -148,7 +169,6 @@
 
     .navi a:hover {  
       border-bottom: 5px solid #013548;
-      
     }
 
     .cart a:hover {
@@ -166,12 +186,13 @@
       background-color: #013548;
       position: relative;
       height: 300px;
+      width: 100%;
 
     }
 
     .social-media {
-      top: 140px;
-      left: 300px;
+      top: 100px;
+      left: 840px;
       position: absolute;
       color: white;
       font-family: Mayton;
@@ -213,7 +234,7 @@
     }
 
     .site-map {
-      top: 40px;
+      top: 100px;
       left: 300px;
       position: absolute;
       font-size: 16px;
@@ -243,14 +264,14 @@
 
     .coffee-group {
       position: relative;
-      width:800px;
-      margin:0 auto;
+      width: 820px;
+      margin: 0 auto;
       padding: 20px;
     }
 
     .coffee-group2 {
       position: relative;
-      width: 1150px;
+      width: 1210px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -263,13 +284,13 @@
     #light-roast {
       position: absolute;
       top: 140px;
-      left: 85px;
+      left: 95px;
     }
 
     #dark-roast{
       position: absolute;
       top: 140px;
-      left: 480px;
+      left: 500px;
     }
 
     #products {
@@ -287,30 +308,142 @@
 
     .connect {
       position: relative;
-      margin: 50px 10px 10px 20%;
+      margin: 50px 10px 10px 12%;
     }
 
     #our-story {
       position: absolute;
       top: 140px;
-      left: 90px;
+      left: 100px;
     }
 
     #donate {
       position: absolute;
       top: 140px;
-      left: 470px;
+      left: 500px;
     }
 
     #merch {
       position: absolute;
       top: 140px;
-      left: 860px;
+      left: 900px;
     }
 
     .shop {
       position: relative;
       margin: 50px 10px 10px 12%;
+    }
+
+    .shop-coffee {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+      top: 150px;
+    }
+
+    .shop-types {
+      position: relative;
+      width: 820px;
+      margin: 10px 0px 100px 17%;
+      padding: 20px;
+      top: 110px;
+      display: block;
+    }
+
+    .shop-item {
+      width:70%;
+      margin:auto;
+      position: relative;
+      top: 145px;
+    }
+
+    #submission {
+      width:70%;
+      margin:10px 0px 180px 17%;
+      position: relative;
+      top: 145px;
+
+    }
+
+
+
+/*  -------- ABOUT US -------*/
+
+    .about {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .faq {
+      position: relative;
+      margin: 50px 12% 50px 12%;
+    }
+
+    .about-descrip {
+      margin: 0px 20% 0px 50px;
+    }
+
+    .about-shop {
+      width:70%;
+      margin:auto;
+    }
+
+    .about-images {
+      position: relative;
+      margin: 0px -0.9% 0px -20%;
+    }
+
+    .image-1 {
+      width: 100%
+    }
+
+    .image-2 {
+      width: 40%;
+    }
+
+    .image-3 {
+      width: 796px;
+      position: absolute;
+      height: 271px;
+    }
+
+    .image-4 {
+      width: 100%;
+      position: relative;
+    }
+
+    .image-5 {
+      width: 796px;
+      position: absolute;
+      height: 271px;
+    }
+
+    .image-6 {
+      width: 40%;
+      margin-left: 800px;
+    }
+
+    #image-hover:hover {
+      transition: .5s ease;
+      opacity: 0.3;
+    }
+
+    #org-donate {
+      margin: 20px 10px 20px 50px;
+      width: 300px;
+      height: 42px;
+      font-size: 14px;
+      font-family: Avenir;
+    }
+
+    #amount-donate {
+      height: 95px;
+      width: 95px;
+      font-size: 22px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      font-family: Avenir;
     }
 
 
