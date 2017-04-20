@@ -156,7 +156,7 @@
     }
 
     .navi {
-      margin: 58px 0px 0px 5px;
+      margin: 58px 0px 0px 13px;
       position: absolute;
 
     }
@@ -281,7 +281,7 @@
 
     .coffee-group {
       position: relative;
-      width: 820px;
+      width: 355px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -493,7 +493,7 @@
 
     h3 {
      font-size: 16px;
-     margin: 0px 0px -10px 50px;
+     margin: 10px 0px 0px 50px;
      font-weight: normal;
      padding: 0px;
 
@@ -534,7 +534,7 @@
       font-size: 14px;
       resize: none;
       width: 500px;
-      margin: -10px 0px 20px 50px;
+      margin: 10px 0px 20px 50px;
     }
 
     input[type="submit"] {
@@ -589,6 +589,7 @@
       background-color: #F3E7CD;
       position: relative;
       height: 200px;
+
 
     }
 
@@ -745,9 +746,8 @@
 
     .coffee-group {
       position: relative;
-      width: 820px;
+      width: 848px;
       margin: 0 auto;
-      padding: 20px;
     }
 
     .coffee-group2 {
@@ -758,8 +758,10 @@
     }
 
     .item-product {
-      width:70%;
-      margin:auto;
+      position: relative;
+      width: 848px;
+      margin: 0 auto;
+      display: block;
     }
 
     #light-roast {
@@ -777,7 +779,7 @@
     #products {
       width: 250px;
       height: 250px;
-      margin:5px;
+      margin: 10px; 
     }
 
     #location {
@@ -794,19 +796,19 @@
 
     #our-story {
       position: absolute;
-      top: 140px;
+      top: 150px;
       left: 100px;
     }
 
     #donate {
       position: absolute;
-      top: 140px;
-      left: 500px;
+      top: 150px;
+      left: 530px;
     }
 
     #merch {
       position: absolute;
-      top: 140px;
+      top: 150px;
       left: 900px;
     }
 
@@ -925,4 +927,3 @@
 
 
 }
-    
