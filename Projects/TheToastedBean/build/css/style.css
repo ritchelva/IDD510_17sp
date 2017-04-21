@@ -8,7 +8,8 @@
     body {
       font-family: Avenir; Helvetica; sans-serif;
       font-size: 16px;
-      margin: 0px;
+      margin: auto;
+      overflow-x: hidden;
       
     } 
 
@@ -59,15 +60,16 @@
       border-radius: 3px;
       border: 1px solid #777777;
       padding: 5px 5px 5px 5px;
-      font-size: 18px;
-      width: 250px;
+      font-size: 15px;
+      width: 300px;
+      font-family: Avenir;
     }
 
     textarea {
       border-radius: 3px;
       border: 1px solid #777777;
       font-size: 14px;
-      width: 260px;
+      width: 310px;
       margin: 0px 0px 10px 10px;
     }
 
@@ -94,6 +96,12 @@
       font-family: Avenir;
       margin: 10px 0px 20px 50px;
 
+    }
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 20px 0px 20px 10px;
     }
 
     .button1:hover {
@@ -156,7 +164,7 @@
     }
 
     .navi {
-      margin: 58px 0px 0px 13px;
+      margin: 58px 0px 0px 16px;
       position: absolute;
 
     }
@@ -212,6 +220,16 @@
 
     }
 
+    .product-page {
+      width: 320px;
+      margin-left: 10px;
+    }
+
+    #item-product {
+      width: 200px;
+      height: 200px;
+
+}
 
 /* ----- START SOCIAL MEDIA CONNECT PAGE -----*/
 
@@ -282,14 +300,19 @@
     .coffee-group {
       position: relative;
       width: 355px;
-      margin: 0 auto;
-      padding: 20px;
+      margin: auto;
     }
 
     .coffee-group2 {
       position: relative;
-      width: 355px;
       padding: 8px;
+    }
+
+    #coffee-group-image {
+      position: relative;
+      width: 380px;
+      padding: 10px;
+
     }
 
     .item-product {
@@ -311,16 +334,41 @@
       left: 500px;
     }
 
-    #products {
+    #products-1 {
       width: 250px;
       height: 250px;
       margin:5px;
     }
 
-    #location {
-      margin: 0px 0px 20px 0px;
-      width:90%;
+    #products-2 {
+      width: 250px;
+      height: 250px;
+      margin:5px;
+    }
+
+    #products-3 {
+      width: 250px;
+      height: 250px;
+      margin:5px;
+    }
+
+    #item-1 {
+      width: 250px;
+      height: 250px;
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
       cursor: pointer;
+
+    }
+
+    #gmap_canvas {
+      margin: 0px 0px 20px 0px;
+      height:350px;
+      width:300px;
+
     }
 
     .connect {
@@ -330,20 +378,20 @@
 
     #our-story {
       position: absolute;
-      top: 120px;
-      left: 110px;
+      top: 140px;
+      left: 130px;
     }
 
     #donate {
       position: absolute;
-      top: 320px;
-      left: 110px;
+      top: 340px;
+      left: 130px;
     }
 
     #merch {
       position: absolute;
-      top: 520px;
-      left: 110px;
+      top: 540px;
+      left: 130px;
     }
 
     .shop {
@@ -396,10 +444,520 @@
     }
 
     .about-shop {
+      position: relative;
+      text-align: center;
+    }
+
+    .about-images {
+      position: relative;
+      margin: 0px -0.9% 0px -20%;
+    }
+
+    .image-1 {
+      width: 100%
+    }
+
+    .image-2 {
+      width: 100%;
+    }
+
+    .image-3 {
+      width: 100%
+    }
+
+    .image-4 {
+      width: 100%;
+    }
+
+    .image-5 {
+      width: 100%;
+    }
+
+    .image-6 {
+      width: 100%;
+    }
+
+    #image-hover:hover {
+      transition: .5s ease;
+      opacity: 0.3;
+    }
+
+    #org-donate {
+      margin: 20px 10px 20px 10px;
+      width: 250px;
+      height: 42px;
+      font-size: 14px;
+      font-family: Avenir;
+    }
+
+    #amount-donate {
+      height: 95px;
+      width: 95px;
+      font-size: 22px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      font-family: Avenir;
+    }
+ }
+
+
+
+
+
+
+
+
+
+    /* ----------------Small Devices, Tablets ---------------- */
+    @media only screen and (min-width : 768px) {
+    
+
+    body {
+      font-family: Avenir; Helvetica; sans-serif;
+      font-size: 16px;
+      margin: auto;
+      
+    } 
+
+    @font-face {
+      font-family: Mayton;
+      src: url(_assets/fonts/Mayton.ttf);
+    }
+
+    h1 {
+     font-size: 32px;
+    }
+
+    h2 {
+     font-size: 28px;
+     margin: 10px 0px 0px 10px;
+
+    }    
+
+    h3 {
+     font-size: 16px;
+     margin: 10px 0px 10px 10px;
+     font-weight: normal;
+
+    }
+
+    h4 {
+
+     font-size: 20px;
+     margin: 10px 0px 10px 10px;
+     padding: 0px;
+
+    }
+
+    a {
+      color: #013548;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #716558;
+      text-decoration: none;
+
+    }
+
+    input[type] {
+      height: 28px;
+      margin: 0px 0px 5px 10px;
+      border-radius: 3px;
+      border: 1px solid #777777;
+      padding: 5px 5px 5px 5px;
+      font-size: 15px;
+      width: 660px;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 1px solid #777777;
+      font-size: 14px;
+      width: 660px;
+      margin: 0px 0px 10px 10px;
+    }
+
+    input[type="submit"] {
+      height: 52px;
+      width: 153px;
+      font-size: 17px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      padding: 0px;
+      font-family: Avenir;
+
+    }
+
+    input[type="comment"] {
+      height: 44px;
+      width: 100px;
+      font-size: 17px;
+      border-radius: 3px;
+      border: none;
+      background: #013548;
+      font-family: Avenir;
+      margin: 10px 0px 20px 50px;
+
+    }
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 30px 0px 20px 10px;
+    }
+
+    .button1:hover {
+      background: #013548;
+      opacity: 0.80;
+      color: white;
+      cursor: pointer;
+      transition: .5s ease;
+
+    }
+
+    .button2:hover {
+      background: #716558;
+      cursor: pointer;
+      transition: .5s ease;
+    }
+
+    input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+    .header {
+      background-color: #F3E7CD;
+      position: relative;
+      height: 175px;
+
+    }
+
+    .slogan {
+      top: 60px;
+      left: 230px;
+      position: absolute;
+      font-family: Mayton;
+      font-size: 29px;
+      letter-spacing: .05em;
+
+    }
+
+    .cart {
+      top: 20px;
+      right: 20px;
+      position: absolute;
+
+    }
+
+    .cart i {
+      font-size: 20px;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      padding: 5px;
+
+    }
+
+    .navi {
+      margin: 78px 0px 0px 100px;
+      position: absolute;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #013548;
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 0px 20px 1px 20px;
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #716558;
+    }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .logo-header {
+    position: absolute;
+    left: 70px;
+    height: 99px;
+    top: 30px;
+    }
+
+    .logo-footer {
+      position: absolute;
+      left: 100px;
+      height: 215px;
+      top: 55px;
+    }
+
+    .footer {
+      background-color: #013548;
+      position: relative;
+      height: 370px;
+      width: 100%;
+
+    }
+
+    .social-media {
+      top: 50px;
+      left: 400px;
+      position: absolute;
+      color: white;
+      font-family: Mayton;
+      text-align: center;
+      font-size: 24px;
+      margin: 10px;
+
+    }
+
+    .product-page {
+      display: table;
+      width: 650px;
+      margin-left: -5px;
+    }
+
+    #item-product {
+      vertical-align: middle;
+      display: table-cell;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+    }
+    .product-text {
+      vertical-align: middle;
+      display: table-cell;
+
+    }
+
+
+/* ----- START SOCIAL MEDIA CONNECT PAGE -----*/
+
+    .social-media-main {
+      left: 10px;
+      position: relative;
+      font-size: 20px;
+
+    }
+
+    .social-media-main i {
+      font-size: 23px;
+      transition: ease-in 0.4s;
+      color: #000000;
+      padding: .50em;
+    }
+
+    .social-media-main i:hover {
+      transform: scale(1.50);
+
+    }
+
+/* ----- END SOCIAL MEDIA CONNECT PAGE -----*/
+    
+    .social-media i {
+      font-size: 30px;
+      transition: ease-in 0.4s;
+      color: #FFFFFF;
+      padding: .50em;
+    }
+
+    .social-media i:hover {
+      transform: scale(1.75);
+    }
+
+    table.site-map {
+      top: 180px;
+      left: 380px;
+      position: absolute;
+      font-size: 15px;
+      width: 400px;
+      border-spacing: 8px;
+
+    }
+
+    .site-map a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .site-map a:hover {  
+      color: #716558;
+
+    }
+
+    .foot-note {
+      text-align: center;
+      color: white;
+      margin-top: 270px;
+      font-size: 12px;
+    }
+
+    .banner-first {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .coffee-group {
+      position: relative;
+      width: 355px;
+      margin: auto;
+    }
+
+    .coffee-group2 {
+      position: relative;
+      padding: 8px;
+    }
+
+    #coffee-group-image {
+      position: relative;
+      width: 240px;
+      padding: 10px;
+
+    }
+
+    .item-product {
       width: 60%;
       margin: 0px 0px 0px 70px;
       position: relative;
       text-align: center;
+    }
+
+    #light-roast {
+      position: absolute;
+      top: 140px;
+      left: 95px;
+    }
+
+    #dark-roast{
+      position: absolute;
+      top: 140px;
+      left: 500px;
+    }
+
+    .products-1 {
+      position: relative;
+      width: 270px;
+    }
+
+    .products-2 {
+      left: 220px;
+      top: -272px;
+      position: relative;
+      width: 270px;
+    }
+
+    .products-3 {
+      left: 440px;
+      top: -544px;
+      position: relative;
+      width: 270px;
+    }
+
+    #item-1 {
+      width: 200px;
+      height: 200px;
+
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
+      cursor: pointer;
+
+    }
+
+    .connect {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    #our-story {
+      position: absolute;
+      top: 78px;
+      left: 60px;
+    }
+
+    #donate {
+      position: absolute;
+      top: 78px;
+      left: 320px;
+    }
+
+    #merch {
+      position: absolute;
+      top: 78px;
+      left: 580px;
+    }
+
+    .shop {
+      position: relative;
+      margin: 0px 10px 10px 12%;
+    }
+
+    .shop-coffee {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .shop-types {
+      position: relative;
+      width: 820px;
+      margin: 10px 0px 100px 17%;
+      padding: 20px;
+      display: block;
+    }
+
+    .shop-item {
+      width:70%;
+      margin:auto;
+      position: relative;
+    }
+
+    #submission {
+      width:70%;
+      margin:50px 0px 70px 17%;
+      position: relative;
+
+    }
+
+
+
+/*  -------- ABOUT US -------*/
+
+    .about {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    .faq {
+      position: relative;
+      margin: 50px 12% 50px 12%;
+    }
+
+    .about-descrip {
+      margin: 10px 40px 10px 10px;
+    }
+
+    .about-shop {
+      position: relative;
+      height: 270px;
+      margin: 25px;
     }
 
     .about-images {
@@ -460,10 +1018,21 @@
 
   }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-    }
+
+
     
+
+
+
+
+
+
+
+
+
+
+
+
   
       /* ---------------- Medium Devices, Desktops ------------------------ */
 
@@ -472,7 +1041,7 @@
     body {
       font-family: Avenir; Helvetica; sans-serif;
       font-size: 16px;
-      margin: 0px;
+      margin: auto;
       
     } 
 
@@ -524,8 +1093,8 @@
       border-radius: 3px;
       border: 1px solid #777777;
       padding: 5px 5px 5px 5px;
-      font-size: 18px;
-      width: 500px;
+      font-size: 15px;
+      width: 760px;
     }
 
     textarea {
@@ -533,7 +1102,7 @@
       border: 1px solid #777777;
       font-size: 14px;
       resize: none;
-      width: 500px;
+      width: 770px;
       margin: 10px 0px 20px 50px;
     }
 
@@ -560,6 +1129,12 @@
       font-family: Avenir;
       margin: 10px 0px 20px 50px;
 
+    }
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 20px 0px 20px 50px;
     }
 
     .button1:hover {
@@ -624,7 +1199,7 @@
     }
 
     .navi {
-      top: 102px;
+      top: 82px;
       right: 70px;
       position: absolute;
 
@@ -678,6 +1253,25 @@
       font-family: Mayton;
       font-size: 30px;
       margin: 10px;
+
+    }
+
+    .product-page {
+      display: table;
+      width: 800px;
+      margin-left: 30px;
+    }
+
+    #item-product {
+      vertical-align: middle;
+      display: table-cell;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+    }
+    .product-text {
+      vertical-align: middle;
+      display: table-cell;
 
     }
 
@@ -752,9 +1346,15 @@
 
     .coffee-group2 {
       position: relative;
+      width: 1220px;
+      margin: auto;
+    }
+
+    #coffee-group-image {
+      position: relative;
       width: 380px;
-      margin: 0 auto;
-      padding: 20px;
+      padding: 10px;
+
     }
 
     .item-product {
@@ -775,18 +1375,50 @@
       top: 140px;
       left: 500px;
     }
-
-    #products {
-      width: 250px;
-      height: 250px;
-      margin: 10px; 
+    
+    .products-1 {
+      position: relative;
+      width: 300px;
     }
 
-    #location {
+    .products-2 {
+      left: 300px;
+      top: -322px;
+      position: relative;
+      width: 300px;
+    }
+
+    .products-3 {
+      left: 600px;
+      top: -644px;
+      position: relative;
+      width: 300px;
+    }
+
+    #item-1 {
+      width: 250px;
+      height: 250px;
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
+      cursor: pointer;
+
+    }
+
+    .product-title {
+      font: italic bold 12px;
+    }
+
+    .product-price {
+      font: bold;
+    }
+
+    #gmap_canvas {
       margin: 10px 0px 20px 50px;
       width:550px;
       height:350px;
-      cursor: pointer;
     }
 
     .connect {
@@ -796,20 +1428,20 @@
 
     #our-story {
       position: absolute;
-      top: 150px;
-      left: 100px;
+      top: 130px;
+      left: 90px;
     }
 
     #donate {
       position: absolute;
-      top: 150px;
-      left: 530px;
+      top: 130px;
+      left: 480px;
     }
 
     #merch {
       position: absolute;
-      top: 150px;
-      left: 900px;
+      top: 130px;
+      left: 890px;
     }
 
     .shop {
@@ -862,8 +1494,10 @@
     }
 
     .about-shop {
-      width:70%;
-      margin:auto;
+      position: relative;
+      height: 320px;
+      left: 15%;
+      width: 800px;
     }
 
     .about-images {
