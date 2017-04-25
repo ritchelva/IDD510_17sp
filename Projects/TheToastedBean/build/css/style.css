@@ -229,7 +229,14 @@
       width: 200px;
       height: 200px;
 
-}
+    }
+
+  .check-out {
+    background-color: #f3e7cd;
+    padding: 5px;
+    border-radius: 5px;
+    width: 335px;
+    }
 
 /* ----- START SOCIAL MEDIA CONNECT PAGE -----*/
 
@@ -744,6 +751,13 @@
       vertical-align: middle;
       display: table-cell;
 
+    }
+
+    .check-out {
+    background-color: #f3e7cd;
+    padding: 5px;
+    border-radius: 5px;
+    width: 700px;
     }
 
 
@@ -1273,6 +1287,13 @@
       vertical-align: middle;
       display: table-cell;
 
+    }
+
+    .check-out {
+    background-color: #f3e7cd;
+    padding: 5px;
+    border-radius: 5px;
+    width: 860px;
     }
 
 /* ----- FIRST SOCIAL MEDIA -----*/
