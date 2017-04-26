@@ -15,7 +15,7 @@
     @media only screen and (min-width : 320px) {
 
     body {
-      font-family: Avenir; Helvetica; sans-serif;
+      font-family: Avenir, Helvetica, sans-serif;
       font-size: 16px;
       margin: auto;
       overflow-x: hidden;
@@ -100,7 +100,7 @@
     border: none;
     background: #716558;
     color: white;
-    font-family: Avenir
+    font-family: Avenir;
 
     }
 
@@ -540,7 +540,7 @@
     
 
     body {
-      font-family: Avenir; Helvetica; sans-serif;
+      font-family: Avenir, Helvetica, sans-serif;
       font-size: 16px;
       margin: auto;
       
@@ -1071,7 +1071,7 @@
     @media only screen and (min-width : 992px) {
 
     body {
-      font-family: Avenir; Helvetica; sans-serif;
+      font-family: Avenir, Helvetica, sans-serif;
       font-size: 16px;
       margin: auto;
       
