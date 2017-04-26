@@ -11,6 +11,7 @@
     body {
       font-family: Avenir, Helvetica, sans-serif;
       margin: auto;
+      overflow-x:hidden;
     } 
 
     h1 {
@@ -475,6 +476,7 @@
     .about-shop {
       position: relative;
       text-align: center;
+
     }
 
     .about-images {
@@ -992,7 +994,8 @@
     .about-shop {
       position: relative;
       height: 270px;
-      margin: 25px;
+      padding-bottom: 100px;
+      margin: 0 auto;
     }
 
     .about-images {
