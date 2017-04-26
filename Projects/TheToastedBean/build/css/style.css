@@ -557,7 +557,7 @@
     }
 
     h3 {
-     font-size: 22px;
+     font-size: 24px;
     }
 
     h4 {
@@ -891,22 +891,22 @@
     }
 
     .products-2 {
-      left: 220px;
-      top: -307px;
+      left: 310px;
+      top: -408px;
       position: relative;
       width: 270px;
     }
 
     .products-3 {
-      left: 440px;
-      top: -615px;
+      left: 620px;
+      top: -816px;
       position: relative;
       width: 270px;
     }
 
     #item-1 {
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
 
     }
 
