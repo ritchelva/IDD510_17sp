@@ -10,7 +10,6 @@
 
     body {
       font-family: Avenir, Helvetica, sans-serif;
-      font-size: 16px;
       margin: auto;
     } 
 
@@ -26,6 +25,11 @@
       /* --------------------- * Mobile Phone * ---------------- */ 
 
     @media only screen and (min-width : 320px) {
+
+    body {
+      font-size: 20px;
+    }
+
 
     h3 {
      font-size: 22px;
@@ -548,6 +552,10 @@
     /* ----------------  Tablets, iPad  ---------------- */
     @media only screen and (min-width : 768px) {
       
+    body {
+    font-size: 24px;
+    }
+
     h3 {
      font-size: 22px;
     }
@@ -884,14 +892,14 @@
 
     .products-2 {
       left: 220px;
-      top: -272px;
+      top: -307px;
       position: relative;
       width: 270px;
     }
 
     .products-3 {
       left: 440px;
-      top: -544px;
+      top: -615px;
       position: relative;
       width: 270px;
     }
