@@ -156,7 +156,7 @@
       top: 90px;
       left: 120px;
       position: absolute;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       font-size: 18px;
       letter-spacing: .05em;
 
@@ -231,7 +231,7 @@
       left: 20px;
       position: absolute;
       color: white;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       text-align: center;
       font-size: 24px;
       margin: 10px;
@@ -546,10 +546,10 @@
       
     } 
 
-/*    @font-face {
+    @font-face {
       font-family: Mayton;
       src: url(_assets/fonts/Mayton.ttf);
-    }*/
+    }
 
     h1 {
      font-size: 32px;
@@ -670,7 +670,7 @@
       top: 60px;
       left: 230px;
       position: absolute;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       font-size: 29px;
       letter-spacing: .05em;
 
@@ -745,7 +745,7 @@
       left: 400px;
       position: absolute;
       color: white;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       text-align: center;
       font-size: 24px;
       margin: 10px;
@@ -1077,10 +1077,10 @@
       
     } 
 
-/*    @font-face {
+    @font-face {
       font-family: Mayton;
       src: url(_assets/fonts/Mayton.ttf);
-    }*/
+    }
 
     h1 {
      font-size: 32px;
@@ -1204,7 +1204,7 @@
       top: 75px;
       left: 230px;
       position: absolute;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       font-size: 30px;
       letter-spacing: .05em;
 
@@ -1282,7 +1282,7 @@
       left: 840px;
       position: absolute;
       color: white;
-      font-family: Mayton;
+      /*font-family: Mayton;*/
       font-size: 30px;
       margin: 10px;
 
