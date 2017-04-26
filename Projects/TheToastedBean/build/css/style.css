@@ -1203,7 +1203,7 @@
     }
 
     .navi {
-      top: 82px;
+      top: 99px;
       right: 70px;
       position: absolute;
 
@@ -1437,19 +1437,19 @@
     #our-story {
       position: absolute;
       top: 130px;
-      left: 90px;
+      left: 130px;
     }
 
     #donate {
       position: absolute;
       top: 130px;
-      left: 480px;
+      left: 550px;
     }
 
     #merch {
       position: absolute;
       top: 130px;
-      left: 890px;
+      left: 960px;
     }
 
     .shop {
