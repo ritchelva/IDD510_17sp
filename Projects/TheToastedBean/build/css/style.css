@@ -8,23 +8,20 @@
     
     }
 
+    body {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    } 
+
       /* Media Queries 
     -------------------------- */
     /* Mobile Phone */ 
 
     @media only screen and (min-width : 320px) {
 
-    body {
-      font-family: Avenir, Helvetica, sans-serif;
-      font-size: 16px;
-      margin: auto;
-      overflow-x: hidden;
-    
-    } 
-
-
     h1 {
-     font-size: 32px;
+     font-size: 38px;
     }
 
     h2 {
@@ -533,24 +530,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     /* ----------------Small Devices, Tablets, iPad---------------- */
     @media only screen and (min-width : 768px) {
     
 
-    body {
-      font-family: Avenir, Helvetica, sans-serif;
-      font-size: 16px;
-      margin: auto;
-      
-    } 
-
-    @font-face {
-      font-family: Mayton;
-      src: url(_assets/fonts/Mayton.ttf);
-    }
-
     h1 {
-     font-size: 32px;
+     font-size: 36px;
     }
 
     h2 {
@@ -1043,8 +1038,6 @@
     }
 
 
-
-
   }
 
 
@@ -1062,22 +1055,16 @@
 
 
 
+
+
+
+
+
+
   
       /* ---------------- Medium Devices, Desktops ------------------------ */
 
     @media only screen and (min-width : 992px) {
-
-    body {
-      font-family: Avenir, Helvetica, sans-serif;
-      font-size: 16px;
-      margin: auto;
-      
-    } 
-
-    @font-face {
-      font-family: Mayton;
-      src: url(_assets/fonts/Mayton.ttf);
-    }
 
     h1 {
      font-size: 32px;
