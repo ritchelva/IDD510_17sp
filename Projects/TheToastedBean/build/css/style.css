@@ -1,7 +1,16 @@
+    @font-face {
+      font-family: Mayton;
+      src: url(_assets/fonts/Mayton.ttf);
+    }
+
+
       /* Media Queries 
     -------------------------- */
     /* Mobile Phone */ 
 
+.slogan {
+  font-family: Mayton;
+}
 
     @media only screen and (min-width : 320px) {
 
@@ -13,10 +22,7 @@
       
     } 
 
-    @font-face {
-      font-family: Mayton;
-      src: url(_assets/fonts/Mayton.ttf);
-    }
+
 
     h1 {
      font-size: 32px;
@@ -87,14 +93,26 @@
     }
 
     input[type="comment"] {
-      height: 44px;
-      width: 100px;
+    height: 52px; */
+    width: 115px;
+    font-size: 17px;
+    border-radius: 2px;
+    border: none;
+    background: #716558;
+    color: white;
+    font-family: Avenir
+
+    }
+
+    input[type="cart-submit"] {
+      width: 153px;
       font-size: 17px;
-      border-radius: 3px;
+      border-radius: 2px;
       border: none;
       background: #013548;
+      color: white;
+      padding: 0px;
       font-family: Avenir;
-      margin: 10px 0px 20px 50px;
 
     }
 
@@ -528,10 +546,10 @@
       
     } 
 
-    @font-face {
+/*    @font-face {
       font-family: Mayton;
       src: url(_assets/fonts/Mayton.ttf);
-    }
+    }*/
 
     h1 {
      font-size: 32px;
@@ -1059,10 +1077,10 @@
       
     } 
 
-    @font-face {
+/*    @font-face {
       font-family: Mayton;
       src: url(_assets/fonts/Mayton.ttf);
-    }
+    }*/
 
     h1 {
      font-size: 32px;
