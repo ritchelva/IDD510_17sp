@@ -556,7 +556,7 @@
     font-size: 24px;
     }
 
-    h3 {
+    h2 {
      font-size: 44px;
     }
 
@@ -603,15 +603,9 @@
 
     input[type="submit"] {
       height: 52px;
-      width: 153px;
-      font-size: 17px;
-      border-radius: 2px;
+      width: 183px;
+      font-size: 22px;
       border: none;
-      background: #013548;
-      color: white;
-      padding: 0px;
-      font-family: Avenir;
-
     }
 
     input[type="comment"] {
@@ -750,9 +744,9 @@
       left: 400px;
       position: absolute;
       color: white;
-      /*font-family: Mayton;*/
+      font-family: Mayton;
       text-align: center;
-      font-size: 24px;
+      font-size: 30px;
       margin: 10px;
 
     }
@@ -857,8 +851,8 @@
 
     #coffee-group-image {
       position: relative;
-      width: 240px;
-      padding: 10px;
+      width: 292px;
+      padding: 3px;
 
     }
 
@@ -919,21 +913,18 @@
     }
 
     #our-story {
-      position: absolute;
-      top: 78px;
+      top: 90px;
       left: 60px;
     }
 
     #donate {
-      position: absolute;
-      top: 78px;
-      left: 320px;
+      top: 90px;
+      left: 360px;
     }
 
     #merch {
-      position: absolute;
-      top: 78px;
-      left: 580px;
+      top: 90px;
+      left: 680px;
     }
 
     .shop {
