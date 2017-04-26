@@ -58,7 +58,6 @@
 
     input[type] {
       height: 28px;
-      margin: 0px 0px 5px 10px;
       border-radius: 3px;
       border: 1px solid #777777;
       padding: 5px 5px 5px 5px;
@@ -72,7 +71,6 @@
       border: 1px solid #777777;
       font-size: 14px;
       width: 310px;
-      margin: 0px 0px 10px 10px;
     }
 
     input[type="submit"] {
@@ -147,14 +145,14 @@
     }
 
     .cart {
-      top: 20px;
-      right: 20px;
+      top: 50px;
+      right: 60px;
       position: absolute;
 
     }
 
     .cart i {
-      font-size: 20px;
+      font-size: 28px;
 
     }
 
@@ -186,7 +184,7 @@
     }
 
     .navi {
-      margin: 58px 0px 0px 16px;
+      margin: 38px 0px 0px 16px;
       position: absolute;
 
     }
@@ -195,7 +193,7 @@
       border-bottom: 5px solid #013548;
       color: black;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 14px;
       padding: 0px 10px 1px 10px;
     }
 
@@ -218,26 +216,26 @@
     .logo-footer {
       position: absolute;
       left: 100px;
-      height: 165px;
+      height: 235px;
       top: 25px;
     }
 
     .footer {
       background-color: #013548;
       position: relative;
-      height: 500px;
+      height: 600px;
       width: 100%;
 
     }
 
     .social-media {
-      top: 210px;
+      top: 290px;
       left: 20px;
       position: absolute;
       color: white;
-      /*font-family: Mayton;*/
+      font-family: Mayton;
       text-align: center;
-      font-size: 24px;
+      font-size: 30px;
       margin: 10px;
 
     }
@@ -270,7 +268,7 @@
     }
 
     .social-media-main i {
-      font-size: 23px;
+      font-size: 30px;
       transition: ease-in 0.4s;
       color: #000000;
       padding: .50em;
@@ -284,7 +282,7 @@
 /* ----- END SOCIAL MEDIA CONNECT PAGE -----*/
     
     .social-media i {
-      font-size: 30px;
+      font-size: 36px;
       transition: ease-in 0.4s;
       color: #FFFFFF;
       padding: .50em;
@@ -295,11 +293,11 @@
     }
 
     table.site-map {
-      top: 330px;
+      top: 420px;
       left: 16px;
       position: absolute;
-      font-size: 15px;
-      width: 370px;
+      font-size: 22px;
+      width: 390px;
       border-spacing: 8px;
 
     }
@@ -317,8 +315,8 @@
     .foot-note {
       text-align: center;
       color: white;
-      margin-top: 420px;
-      font-size: 12px;
+      margin-top: 510px;
+      font-size: 16px;
     }
 
     .banner-first {
@@ -396,7 +394,7 @@
     #gmap_canvas {
       margin: 0px 0px 20px 0px;
       height:350px;
-      width:300px;
+      width:350px;
 
     }
 
@@ -585,7 +583,6 @@
 
     input[type] {
       height: 28px;
-      margin: 0px 0px 5px 10px;
       border-radius: 3px;
       border: 1px solid #777777;
       padding: 5px 5px 5px 5px;
@@ -598,7 +595,6 @@
       border: 1px solid #777777;
       font-size: 14px;
       width: 660px;
-      margin: 0px 0px 10px 10px;
     }
 
     input[type="submit"] {
@@ -783,12 +779,12 @@
     .social-media-main {
       left: 10px;
       position: relative;
-      font-size: 20px;
+      font-size: 40px;
 
     }
 
     .social-media-main i {
-      font-size: 23px;
+      font-size: 40px;
       transition: ease-in 0.4s;
       color: #000000;
       padding: .50em;
@@ -1017,6 +1013,10 @@
       opacity: 0.3;
     }
 
+    #gmap_canvas {
+      width:100%;
+    }
+
     #org-donate {
       margin: 20px 10px 20px 10px;
       width: 250px;
@@ -1091,7 +1091,6 @@
 
     input[type] {
       height: 28px;
-      margin: 10px 0px 20px 50px;
       border-radius: 3px;
       border: 1px solid #777777;
       padding: 5px 5px 5px 5px;
@@ -1105,7 +1104,6 @@
       font-size: 14px;
       resize: none;
       width: 770px;
-      margin: 10px 0px 20px 50px;
     }
 
     input[type="submit"] {
@@ -1129,8 +1127,6 @@
       border: none;
       background: #013548;
       font-family: Avenir;
-      margin: 10px 0px 20px 50px;
-
     }
 
     input[type="checkbox"] {
@@ -1430,9 +1426,7 @@
     }
 
     #gmap_canvas {
-      margin: 10px 0px 20px 50px;
-      width:550px;
-      height:350px;
+      width:100%;
     }
 
     .connect {
