@@ -731,8 +731,8 @@
 
     .logo-footer {
       position: absolute;
-      left: 100px;
-      height: 215px;
+      left: 60px;
+      height: 260px;
       top: 55px;
     }
 
@@ -741,6 +741,7 @@
       position: relative;
       height: 370px;
       width: 100%;
+      top: 100px;
 
     }
 
@@ -807,10 +808,7 @@
 /* ----- END SOCIAL MEDIA CONNECT PAGE -----*/
     
     .social-media i {
-      font-size: 30px;
-      transition: ease-in 0.4s;
-      color: #FFFFFF;
-      padding: .50em;
+      font-size: 40px;
     }
 
     .social-media i:hover {
@@ -821,10 +819,9 @@
       top: 180px;
       left: 380px;
       position: absolute;
-      font-size: 15px;
-      width: 400px;
-      border-spacing: 8px;
-
+      font-size: 24px;
+      width: 540px;
+      border-spacing: 7px;
     }
 
     .site-map a {
@@ -838,10 +835,8 @@
     }
 
     .foot-note {
-      text-align: center;
-      color: white;
-      margin-top: 270px;
-      font-size: 12px;
+      margin-top: 265px;
+      font-size: 18px;
     }
 
     .banner-first {
