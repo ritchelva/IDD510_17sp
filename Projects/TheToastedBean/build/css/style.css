@@ -656,9 +656,7 @@
     }
 
     .header {
-      background-color: #F3E7CD;
-      position: relative;
-      height: 175px;
+      height: 200px;
 
     }
 
@@ -672,14 +670,14 @@
     }
 
     .cart {
-      top: 20px;
-      right: 20px;
+      top: 60px;
+      right: 160px;
       position: absolute;
 
     }
 
     .cart i {
-      font-size: 20px;
+      font-size: 40px;
 
     }
 
@@ -703,7 +701,7 @@
     }
 
     .navi {
-      margin: 32px 0px 0px 100px;
+      margin: 57px 0px 0px 100px;
 
     }
 
