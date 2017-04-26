@@ -100,17 +100,6 @@
 
     }
 
-    input[type="cart-submit"] {
-      width: 153px;
-      font-size: 17px;
-      border-radius: 2px;
-      border: none;
-      background: #013548;
-      color: white;
-      padding: 0px;
-      font-family: Avenir;
-
-    }
 
     input[type="checkbox"] {
       height: 15px;
@@ -173,6 +162,26 @@
       color: black;
       text-decoration: none;
       padding: 5px;
+
+    }
+
+    .add-cart {
+      right: 95px;
+      bottom: 295px;
+      position: relative;
+
+    }
+
+    .add-cart i {
+      font-size: 50px;
+
+    }
+
+    .add-cart a {
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      text-shadow: 1px 2px 3px grey;
 
     }
 
@@ -684,6 +693,18 @@
       color: black;
       text-decoration: none;
       padding: 5px;
+
+    }
+
+    .add-cart {
+      left: -50px;
+      top: 7px;
+      position: absolute;
+
+    }
+
+    .add-cart i {
+      font-size: 40px;
 
     }
 
@@ -1210,6 +1231,13 @@
       text-decoration: none;
       font-size: 18px;
       padding: 10px;
+
+    }
+
+    .add-cart {
+      right: 140px;
+      top: 7px;
+      position: absolute;
 
     }
 
