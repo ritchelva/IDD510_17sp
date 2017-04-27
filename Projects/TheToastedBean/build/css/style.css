@@ -1184,6 +1184,13 @@
 
     }
 
+    .add-cart {
+      right: 250px;
+      top: 7px;
+      position: absolute;
+
+    }
+
     .navi {
       top: 99px;
       right: 70px;
@@ -1372,20 +1379,20 @@
     }
 
     .products-2 {
-      top: -338px;
+      top: -388px;
       position: relative;
       width: 300px;
     }
 
     .products-3 {
-      top: -696px;
+      top: -796px;
       position: relative;
       width: 300px;
     }
 
     #item-1 {
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
     }
 
     .item-hover:hover {
