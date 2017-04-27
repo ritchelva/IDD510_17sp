@@ -525,6 +525,7 @@
       border: none;
       background: #013548;
       color: white;
+      margin: 10px;
       font-family: Avenir;
     }
  }
@@ -846,10 +847,8 @@
     }
 
     #coffee-group-image {
-      position: relative;
-      width: 292px;
-      padding: 3px;
-
+      width: 300px;
+      padding: 2px;
     }
 
     .item-product {
@@ -910,17 +909,17 @@
 
     #our-story {
       top: 90px;
-      left: 60px;
+      left: 70px;
     }
 
     #donate {
       top: 90px;
-      left: 360px;
+      left: 380px;
     }
 
     #merch {
       top: 90px;
-      left: 680px;
+      left: 700px;
     }
 
     .shop {
@@ -1022,17 +1021,6 @@
       width: 250px;
       height: 42px;
       font-size: 14px;
-      font-family: Avenir;
-    }
-
-    #amount-donate {
-      height: 95px;
-      width: 95px;
-      font-size: 22px;
-      border-radius: 2px;
-      border: none;
-      background: #013548;
-      color: white;
       font-family: Avenir;
     }
 
@@ -1195,13 +1183,6 @@
 
     }
 
-    .add-cart {
-      right: 140px;
-      top: 7px;
-      position: absolute;
-
-    }
-
     .navi {
       top: 99px;
       right: 70px;
@@ -1341,7 +1322,7 @@
     .foot-note {
       text-align: center;
       color: white;
-      margin-top: 210px;
+      margin-top: 180px;
     }
 
     .banner-first {
@@ -1356,15 +1337,12 @@
     }
 
     .coffee-group2 {
-      position: relative;
-      width: 1220px;
+      width: 1232px;
       margin: auto;
     }
 
     #coffee-group-image {
-      position: relative;
-      width: 380px;
-      padding: 10px;
+      width: 400px;
 
     }
 
@@ -1389,18 +1367,17 @@
     .products-1 {
       position: relative;
       width: 300px;
+      top: 20px;
     }
 
     .products-2 {
-      left: 300px;
-      top: -322px;
+      top: -338px;
       position: relative;
       width: 300px;
     }
 
     .products-3 {
-      left: 600px;
-      top: -644px;
+      top: -696px;
       position: relative;
       width: 300px;
     }
@@ -1497,14 +1474,12 @@
     }
 
     .about-descrip {
-      margin: 0px 20% 50px 50px;
+      margin: 0px 20% 50px 0px;
     }
 
     .about-shop {
       position: relative;
-      height: 320px;
-      left: 15%;
-      width: 800px;
+      margin: auto;
 
     }
 
@@ -1553,17 +1528,6 @@
       width: 300px;
       height: 42px;
       font-size: 14px;
-      font-family: Avenir;
-    }
-
-    #amount-donate {
-      height: 95px;
-      width: 95px;
-      font-size: 22px;
-      border-radius: 2px;
-      border: none;
-      background: #013548;
-      color: white;
       font-family: Avenir;
     }
 
